@@ -44,9 +44,41 @@ h1 {
   border: none;
   border-radius: 25px;
   cursor: pointer;
+  margin-bottom: 15px;
 }
 
 #talk-btn:hover {
+  background: #c73652;
+}
+
+#text-input-container {
+  display: flex;
+  gap: 10px;
+  width: 500px;
+}
+
+#text-input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background: #16213e;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+#send-btn {
+  padding: 12px 25px;
+  background: #e94560;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#send-btn:hover {
   background: #c73652;
 }
 
